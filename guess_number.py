@@ -20,7 +20,7 @@ def main():
     if guess == random_number:
         print("Congratulations, you guessed correct!")
     else:
-        print("Sorry, you guessed wrong!")
+        print("Sorry, you guessed wrong! The number was {0}.".format(random_number))
 
     print("\nDone.")
 
